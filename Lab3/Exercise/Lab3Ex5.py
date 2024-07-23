@@ -12,6 +12,7 @@ add = lambda x,y: x+y
 subtract = lambda x,y: x-y
 multiply = lambda x,y: x*y
 divide = lambda x,y: x/y
-print(add(2,3), subtract(2,3), multiply(2,3), divide(2,3))
+if __name__ == "__main__":
+    print(add(2,3), subtract(2,3), multiply(2,3), divide(2,3))
 
 
