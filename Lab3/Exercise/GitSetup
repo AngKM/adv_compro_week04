@@ -1,0 +1,25 @@
+Step1:
+git config --global user.name "AngKM"
+git config --global user.email "angang.km@gmail.com"
+
+Step2:
+echo "# adv_compro_week04" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AngKM/adv_compro_week04.git
+git push -u origin main
+
+#Output
+[master (root-commit) f4eaa58] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 272 bytes | 272.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/AngKM/adv_compro_week04.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
